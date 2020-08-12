@@ -1,4 +1,4 @@
-import 'package:binary_numbers/screens/home_page.dart';
+import 'package:binary_numbers/screens/landing_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(),
+      home: LandingPage(),
     );
   }
 }
